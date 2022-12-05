@@ -58,7 +58,7 @@ This app was built with some technologies below:
 ## Related Project
 
 RESTful API for this web application, clone this for development Telegram.\
-- [Backend-Telegram](https://github.com/vickomaris/HireJob_BE)
+- [Backend-Telegram](https://github.com/vickomaris/Telegram-BE)
 
 
 ## Contributing
