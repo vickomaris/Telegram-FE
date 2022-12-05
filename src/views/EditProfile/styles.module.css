@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap');
+body {
+    font-family: Rubik;
+}
+.leftside{
+    background-color: white;
+    height: max-content;
+    padding-bottom: 100px;
+}
+
+.titleUsername{
+    color: #7E98DF;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.avaProfile{
+    height: 82px;
+    width: 82px;
+}
+
+.textNickname{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.textUsername{
+    color: #848484;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.textTitle{
+    color: #232323;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Rubik;
+}
+
+.textPhone{
+    color: #232323;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Rubik;
+}
+
+.textSetphone{
+    color: #7E98DF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Rubik;
+}
+
+.textUsernamedb{
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Rubik;
+}
+
+.textSubtitle{
+    color: #848484;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Rubik;
+}
+
+.textBiodb{
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Rubik;
+}
+
+.textSettingbotleft{
+    color: #232323;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Rubik;
+}
+
+/* .divChatleft{
+    background-color: red;
+} */
+
+/* dibawah ini sudah rightside */
+
+.imgAva{
+    height: 64px;
+}
+
+#cari2{
+    background-color: #EFEFEF !important;
+    /* border: none; */
+}
+
+#cari2:focus {
+    outline: none !important;
+    border: 1px solid #7E98DF;
+    box-shadow: 0 0 10px #7E98DF;
+}
+
+.rightside{
+    background-color: #FAFAFA;
+    height: 100%;
+}
+
+.sideChat{
+    background-color: #FAFAFA;
+    height: 105vh
+}
+
+.topChat{
+    background-color: white;
+}
+
+.Profilemenu{
+    background-color: transparent;
+    border: none;
+}
+
+.sideTopCollepse{
+    position: relative !important;
+}
+
+.cstmCollepsetop{
+    width: max-content;
+    background-color: #7E98DF !important;
+    border: none !important;
+    position: absolute !important;
+    margin-top: 60px;
+}
+
+.collepseStyle{
+    background-color: #7E98DF !important;
+    list-style-type: none;
+}
+
+.textTopmenu:hover {
+    background-color: #5EB4DD !important;
+}
+
+.textTopmenu{
+    color: white !important;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.imgChatava{
+    height: 54px;
+}
+
+.textSidechatleft{
+    width: 250px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: Rubik;
+    font-weight: 400;
+    background-color: #7E98DF;
+    border-radius: 20px 30px 30px 5px; 
+}
+
+.textSidechatright{
+    width: 250px;
+    padding: 15px;
+    color: #232323;
+    font-size: 15px;
+    font-family: Rubik;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 30px 20px 5px 30px; 
+}
+
+.cstmFormupdate{
+    width: 100%;
+}
+
+.btnSaved{
+    background-color: #7E98DF;
+    color:white ;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    border: none;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.btnDelete{
+    background-color: red;
+    color:white ;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    border: none;
+    height: 60px;
+    border-radius: 50px;
+}

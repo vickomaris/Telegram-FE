@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap');
+body {
+    font-family: Rubik;
+}
+.main{
+    background-color: #F6F6F6;
+    height: 100vh;
+}
+
+.sideLogin{
+    background-color: white;
+    /* margin-top: 200px; */
+    border-radius: 20px;
+    height: max-content;
+    /* padding-bottom: 500px !important; */
+}
+
+
+
+.title {
+    color: #7E98DF;
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.subTitle {
+    color: #232323;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.inputForm{
+    border: none !important;
+    border-bottom: 1px solid #232323 !important;
+    /* border-color: #D2C2FFAD !important; */
+    border-radius: 0 !important;
+}
+
+.textForgot {
+    color: #7E98DF;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.btnRegister{
+    background-color: #7E98DF;
+    color:white ;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    border: none;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.btnGLogin{
+    background-color: transparent;
+    color: #7E98DF;
+    border-color: #7E98DF ;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    height: 60px;
+    border-radius: 50px;
+}

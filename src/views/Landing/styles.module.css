@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap');
+body {
+    font-family: Rubik;
+}
+.leftside{
+    background-color: white;
+    height: max-content;
+    padding-bottom: 100px;
+}
+
+.title{
+    color: #7E98DF;
+    font-size: 29px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.dropStyle{
+    background-color: #7E98DF !important;
+    margin-left: -150px !important;
+}
+
+.textMenu:hover {
+    background-color: #5EB4DD !important;
+}
+
+.textMenu{
+    color: white !important;
+}
+
+
+
+.cari{
+    height: 50px;
+    
+}
+
+/* .divChatleft{
+    background-color: red;
+} */
+
+.imgAva{
+    height: 64px;
+}
+
+.notifChat{
+    text-align: center;
+    background-color: #7E98DF;
+    border-radius: 100%;
+    padding: 5px;
+    width: max-content;
+    height: max-content;
+}
+
+#cari2{
+    background-color: #EFEFEF !important;
+}
+
+#cari2:focus {
+    outline: none !important;
+    border: 1px solid #7E98DF;
+    box-shadow: 0 0 10px #7E98DF;
+}
+
+.rightside{
+    background-color: #FAFAFA;
+    height: 100vh;
+}
+
+.textRightside{
+    color: #848484;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 400;
+}
