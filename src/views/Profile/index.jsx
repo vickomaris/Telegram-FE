@@ -38,7 +38,7 @@ const Index = () => {
     }, [])
 
     const getId = (id_user) => {
-        axios.get(`http://localhost:3001/user/${id_user}`)
+        axios.get(`${process.env.REACT_APP_BACKEND_URL}/user/${id_user}`)
             .then((response) => {
                 console.log(response.data)
                 setData(response.data)

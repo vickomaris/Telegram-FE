@@ -38,7 +38,7 @@ const Index = () => {
     const [socketio, setSocketIo] = useState(null)
     const [listchat, setListchat] = useState([])
     useEffect(() => {
-        const socket = io(`http://localhost:3001`);
+        const socket = io(`${process.env.REACT_APP_BACKEND_URL}`);
         socket.on("send-message-response", (response) => {
             // set receiver
             const receiver = JSON.parse(localStorage.getItem('receiver'))

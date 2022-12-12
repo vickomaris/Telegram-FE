@@ -47,7 +47,7 @@ const Index = () => {
     }, [])
 
     const getId = (id_user) => {
-        axios.get(`http://localhost:3001/user/${id_user}`)
+        axios.get(`${process.env.REACT_APP_BACKEND_URL}/user/${id_user}`)
             .then((response) => {
                 console.log(response.data)
                 setData(response.data)
@@ -75,7 +75,7 @@ const Index = () => {
         formData.append("image", image);
         // handlePost(Object.fromEntries(formData));
         axios
-            .put(`http://localhost:3001/user/photo/${id}`, formData)
+            .put(`${process.env.REACT_APP_BACKEND_URL}/user/photo/${id}`, formData)
             .then((res) => {
                 console.log(res);
                 alert("Update Success");
@@ -104,7 +104,7 @@ const Index = () => {
             bio: update.bio
         }
         axios
-            .put(`http://localhost:3001/user/${id}`, form)
+            .put(`${process.env.REACT_APP_BACKEND_URL}/user/${id}`, form)
             .then((res) => {
                 console.log(res);
                 // setImage("");
@@ -121,7 +121,7 @@ const Index = () => {
         const data = JSON.parse(localStorage.getItem("data"));
         const id_user = data.id_user;
         axios
-            .delete(`http://localhost:3001/user/${id_user}`)
+            .delete(`${process.env.REACT_APP_BACKEND_URL}/user/${id_user}`)
             .then((res) => {
                 console.log(res);
                 alert("Profile Terhapus");

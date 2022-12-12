@@ -26,7 +26,7 @@ const Index = () => {
             password: form.password,
         }
         
-            axios.post("http://localhost:3001/register", body)
+            axios.post(`${process.env.REACT_APP_BACKEND_URL}/register`, body)
                 .then((response) => {
                     if (response.data.status != 'success') {
                         alert(response.data.message)

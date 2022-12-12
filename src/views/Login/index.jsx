@@ -15,7 +15,7 @@ const Index = () => {
         e.preventDefault();
         // console.log(form)
         // //root dari backend
-            axios.post("http://localhost:3001/login", form)
+            axios.post(`${process.env.REACT_APP_BACKEND_URL}/login`, form)
             .then((response) => {
                 console.log(response.data)
                 if (response.data.status !== 'success') {
